@@ -36,7 +36,7 @@ public class Interpreter extends Thread {
 //        this.fileTxt=fileTxt;
 //        logger.addHandler(fileTxt);
 
-        CommandManager manager = CommandManager.getInstance("s313089", "fpz798");
+        CommandManager manager = CommandManager.getInstance("login", "pass");
         manager.initCommand(ExitCommand.class, "exit", "Выход, без сохранения");
         manager.initCommand(InfoCommand.class, "info", "Выводит информацию о коллекции");
         manager.initCommand(HelpCommand.class, "help", "Выводит справку по коммандам");
